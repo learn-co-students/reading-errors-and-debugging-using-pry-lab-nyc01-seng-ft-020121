@@ -1,4 +1,4 @@
-# don't forget to add: require 'pry'
+
 
 def get_user_input
   gets.chomp
@@ -11,10 +11,11 @@ def prompt_user
 end
 
 def selection(num)
-  if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+case num
+when 1
+  "YUM YUM MUNCH MUNCH MUNCH"
+when 2
+  "HAM HAM HAM IN MY TUMMY"
   end
 end
 
